@@ -1,0 +1,62 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container input{
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-right: 18px;
+    border:0;
+    background:#ebfffc;
+    
+    flex:1;
+
+
+}
+.container button{
+    border:0;
+    outline:0;
+    border-radius: 50%;
+    height: 60px;
+    width:60px;
+    cursor:pointer;
+}
+
+.container button img{
+    width:16px;
+}
+.weather h1{
+    font-size:80px;
+    font-weight:500;
+}
+.weather h2{
+    font-size:45px;
+    font-weight:400;
+    margin-top: -10px;
+
+}
+.card{
+    max-width: 470px;
+    background:linear-gradient(135deg,#00feba,#5b548a);
+    margin:100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    color:#fff;
+}
+.col{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 20px;
+    margin-top: 50px;
+    color:#fff;
+}
+
+.error{
+    display:none;
+}
